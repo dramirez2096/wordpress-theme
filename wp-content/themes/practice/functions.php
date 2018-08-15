@@ -120,6 +120,9 @@ add_action( 'widgets_init', 'practice_widgets_init' );
  * Enqueue scripts and styles.
  */
 function practice_scripts() {
+	// enque google fonts
+	wp_enqueue_style( 'practice-fonts', 'https://fonts.googleapis.com/css?family=Lato:300,400,700' );
+
 	wp_enqueue_style( 'practice-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'practice-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );

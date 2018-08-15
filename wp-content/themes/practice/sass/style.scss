@@ -3,7 +3,7 @@ Theme Name: practice-theme
 Theme URI: http://underscores.me/
 Author: david
 Author URI: http://underscores.me/
-Description: Description
+Description: Practice creating a wordpress theme
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: LICENSE
@@ -86,14 +86,14 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 @import "modules/clearings";
 
 /*--------------------------------------------------------------
-# Widgets
---------------------------------------------------------------*/
-@import "site/secondary/widgets";
-
-/*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
 @import "site/site";
+
+/*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+@import "site/secondary/widgets";
 
 /*--------------------------------------------------------------
 # Infinite scroll
